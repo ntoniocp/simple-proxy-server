@@ -1,0 +1,8 @@
+### Exclude all the modules that are available in any package manager
+node_modules/ 
+
+### Where other params are stored
+.env
+
+### Where all the api keys are stored
+config.json

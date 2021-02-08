@@ -1,0 +1,34 @@
+{
+  "name": "nodesimpleproxyserver",
+  "version": "1.0.0",
+  "description": "a simple node proxy server for protecting api keys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "http",
+    "proxy",
+    "server",
+    "api",
+    "keys",
+    "protection",
+    "secure"
+  ],
+  "author": "ntoniocp",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.3",
+    "http-proxy-middleware": "^1.0.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
